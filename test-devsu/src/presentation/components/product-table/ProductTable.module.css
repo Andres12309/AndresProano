@@ -1,0 +1,64 @@
+.wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.table th {
+  color: var(--color-primary);
+}
+
+.logoCell {
+  width: 72px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logoFallback {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbeafe;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.actionsCell {
+  text-align: right;
+  overflow: visible;
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-muted);
+  padding: 32px;
+}
+
+.progressBar {
+  height: 4px;
+  background: #e5e7eb;
+  margin-top: 4px;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--color-primary);
+}
